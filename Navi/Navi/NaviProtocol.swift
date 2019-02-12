@@ -12,4 +12,6 @@ public protocol NaviProtocol: class {
     func tabBarViewControllers() -> [String]
     func rootNodeName() -> String
     func mapBusinessLogicDocument() -> [String: String]
+    @objc optional func currentController() -> UIViewController
+    @objc optional func previousController() -> UIViewController
 }

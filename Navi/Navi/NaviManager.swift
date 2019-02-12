@@ -243,6 +243,9 @@ extension NaviManager {
 
 extension NaviManager {
     func previousController() -> UIViewController? {
+        if let previousVC = navigator.previousController?() {
+            return previousVC
+        }
         let count = topViewController()?.navigationController?.viewControllers.count ?? 0
         if count > 1 {
             return topViewController()?.navigationController?.viewControllers[count - 2]
@@ -252,6 +255,9 @@ extension NaviManager {
     }
 
     func topViewController() -> UIViewController? {
+        if let topVC = navigator.currentController?() {
+            return topVC
+        }
         guard let rootViewController = UIApplication.shared.keyWindow?.rootViewController else {
             return nil
         }
