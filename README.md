@@ -1,6 +1,13 @@
 This is a tool which could easily observe and visualize each route and flow we are tracking on the real time.
 
+![](https://github.com/AppScaffold/Navi/blob/master/Screenshot.png?raw=true)
+
+There will display a tips view when your cursor is floating on a node text if you have configured the info that you want to show.
+
+![](https://github.com/AppScaffold/Navi/blob/master/Screenshot%20TipsView.png?raw=true)
+
 ## Intent
+
 For a big App, sometime it's hard to check and debug which route we are using. what reaction will be happened once we click somewhere. in order to easily check those scenario whether or not meet the expectation, this tool is created to tackle this requirement.
 
 ## Getting Started
@@ -11,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them
 
-1. Install NPM
+1. Install npm
 ```
 brew install node
 ```
@@ -36,3 +43,4 @@ You have to run your project first before you execute the command below.
 - [x] Map business logic documents
 - [ ] Show history paths
 - [ ] Adapt mobile screen
+- [ ] Monitor the network
