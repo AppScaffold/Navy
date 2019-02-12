@@ -19,10 +19,10 @@ class Navigation: NaviProtocol {
     }
 
     func mapBusinessLogicDocument() -> [String: String] {
-        return ["NaviDemo.FavoriteViewController": "https://www.farfetch.com",
-                "NaviDemo.ListViewController": "https://www.farfetch.com",
-                "NaviDemo.DetailViewController": "https://www.farfetch.com",
-                "NaviDemo.SettingViewController": "https://www.farfetch.com",
-                "NaviDemo.DownloadViewController": "https://www.farfetch.com"]
+        return ["NaviDemo.FavoriteViewController": "https://en.wikipedia.org/wiki/Marie_Curie",
+                "NaviDemo.ListViewController": "https://en.wikipedia.org/wiki/Albert_Einstein",
+                "NaviDemo.DetailViewController": "https://en.wikipedia.org/wiki/Tu_Youyou",
+                "NaviDemo.SettingViewController": "https://en.wikipedia.org/wiki/Alan_Turing",
+                "NaviDemo.DownloadViewController": "https://en.wikipedia.org/wiki/Main_Page"]
     }
 }
