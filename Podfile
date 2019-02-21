@@ -1,6 +1,5 @@
 # Sources configuration
 source 'https://github.com/CocoaPods/Specs.git'
-source 'git@gitlab.fftech.info:dragon/consumer-app/Specs.git'
 
 platform :ios, '9.0'
 
