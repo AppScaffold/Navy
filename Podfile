@@ -16,9 +16,4 @@ target 'NaviDemo' do
     # Pods for testing
   end
 
-  target 'NaviDemoUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end

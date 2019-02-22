@@ -2,12 +2,11 @@
 //  NaviTests.swift
 //  NaviTests
 //
-//  Created by chai.chai on 2019/1/8.
+//  Created by chai.chai on 2019/2/22.
 //  Copyright © 2019 chai.chai. All rights reserved.
 //
 
 import XCTest
-@testable import Navi
 
 class NaviTests: XCTestCase {
 
