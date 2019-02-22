@@ -7,333 +7,299 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E54D8B4F096AEFB37E8F566914B8424 /* Navi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D16F38465D3CE54870F428444C27703 /* Navi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F289A2DEB77A520471DF0A72992089A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74584DC9902E7599292A8C5DBF41552 /* Node.swift */; };
-		10DD0B57D91F57E9164201FE9353392E /* Pods-NaviDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8502752F29F75131D748F59767562B3E /* Pods-NaviDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		168947E313D08348EFCD526C09E284C5 /* AllTouchesGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 326D200CADF65E3EEC2A3B9266637157 /* AllTouchesGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1B431571514C7378AFA1181C9C0F1DF1 /* Pods-NaviDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45684B885B1FAE5622C209737EB70E2D /* Pods-NaviDemo-dummy.m */; };
-		23FDD3948928CA803330E14E356CF26B /* Pods-NaviDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C06EE79D2D702B453011F64E9359B6B2 /* Pods-NaviDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		254CCB17186D0B0CE71F733004C7E6E2 /* NaviProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D8688190C8A573E65FCB0E6CE1ECF7 /* NaviProtocol.swift */; };
-		2F30444B1B7EF3412788E3D125B74A40 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		51CB7554E3AB7949ABC8E81258288218 /* Navi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E512B9D441A1858B064C0AE7F70F1123 /* Navi-dummy.m */; };
-		5EE0430529A533D28DAD80A5A2E2AD53 /* AllTouchesGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6885B9C1D96955C8E3F5B6740B51DA1 /* AllTouchesGestureRecognizer.m */; };
-		611D2D1C99372A90F869916B38992F92 /* Pods-NaviDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16727C2458724B4839829FEBA94370A9 /* Pods-NaviDemoTests-dummy.m */; };
-		64B27165B1A0AC68DF8CC8A62B4D2C4B /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554DACC85A44279BF7030B5730B29F6D /* Command.swift */; };
-		7C5457F6DC84009455F8779D63DCA044 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		8CF8B3BED7FCD5227A40963162202FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		8CFF7601658EA8F92D3F0D46566E709A /* Pods-NaviDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 798DA17B3BAF41C410820FEEA9826B54 /* Pods-NaviDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9794229C8DA3568001A0975B7057CCA8 /* Pods-NaviDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D7B5C79059E61F604027B8DF96B77C /* Pods-NaviDemoUITests-dummy.m */; };
-		AFEC68E63BE8DA31D21288B5C29726EB /* Navi.h in Headers */ = {isa = PBXBuildFile; fileRef = FD46F7E0AA886A2F111269FB3F52D2C3 /* Navi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B83E45E3B9B56EE23B05F4243E35031A /* TouchesGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51840724D4E0DCE652BA8A858C7BE953 /* TouchesGestureRecognizer.swift */; };
-		BBBE419298EAA9F02A38018F53D3A6F5 /* NaviHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 242DE9AAC41A1641B838AF17B383C070 /* NaviHeader.swift */; };
-		C77CDC6C5C0325E9345EF3800E622343 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		DD562B8C8C795E044E74179B4C20BD40 /* NaviManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7AFA2039BB46F3C47845F82E60ACD3E /* NaviManager.swift */; };
+		0CDD4FE2A4D65A904CD5D1DA2B5FE27D /* Pods-NaviDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35368492DA3743E32B17DB07CC7901E5 /* Pods-NaviDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22EDD14BD4C1D5E7A752F64B41BCD647 /* Pods-NaviDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FB6E37CA82C92C08608E857273F27A6B /* Pods-NaviDemoTests-dummy.m */; };
+		41DCC935017239D03325F1C222864A2F /* Navi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F2BF7450835FF119A6A0670C37728AE /* Navi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		492D52D245EAF72DF1DFE71A48427F17 /* NaviHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7A6D8C0A6A582578DA2836414758A9 /* NaviHeader.swift */; };
+		51A9E4313E40D7DD8422D0C41E0EC36A /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479DBB8271FF17EB48B8C97949A6623E /* Node.swift */; };
+		551F72C15284745D7D2F01C9DE096F55 /* AllTouchesGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3118CCD850F8EA8A3CBC75FC59DA0F92 /* AllTouchesGestureRecognizer.m */; };
+		7B40049E7C594142A632C2AC4014E701 /* Pods-NaviDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E6DA9B3F13613D4DEF6B9CD34CBF9CE /* Pods-NaviDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8827043ABA31193AFE242353CB63A4F3 /* AllTouchesGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = A2545B909CA195D76F6837B3F6BA3F4D /* AllTouchesGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88BA8493053D87013E61862C34D98F2D /* NaviProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2D415CAEA73A9FB8E729D9F5A9AC48 /* NaviProtocol.swift */; };
+		8A1C02FDA1E2F7858ADA594C2DCB641A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		9C0E3213FE9A84CCE66DFE3DEBB6BA93 /* Pods-NaviDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82332A02B5ECD3051003EBF2C46D0AF3 /* Pods-NaviDemo-dummy.m */; };
+		C5BF13F52D9B1B51ED379C9EFB4AFC4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		C9F58ABEE99072B353B5E3411DB7BB8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		CA7510DB4C0B4E6D800F870D515D7EB2 /* NaviManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED016122D0D07A6DC613C70AF9BEF167 /* NaviManager.swift */; };
+		D14306F739D365F7551937FF20D82C60 /* Navi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D22CEB9D59784148876E7F763A74AB /* Navi-dummy.m */; };
+		D2EA5B86A551120119173872BC99254A /* TouchesGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CED66A5D332C76B6585A74DA834C6AA /* TouchesGestureRecognizer.swift */; };
+		DA36125EF1F39F91D4CE4D4098A697D4 /* Navi.h in Headers */ = {isa = PBXBuildFile; fileRef = 850EEF09BC66A35D94EE09A1FCDA70CB /* Navi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC26B516F393617E5C780458A41997C9 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90AD346759528D045ABB1EA7CCF9A01 /* Command.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		76A54255FCD2EFA758B0FE37DC8B4A55 /* PBXContainerItemProxy */ = {
+		09855375FADDF084EF7ED046D42000D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F81E714503662C616DBD07F5623B66E1;
-			remoteInfo = "Pods-NaviDemo";
-		};
-		A11D3243C64C1848814926FCB510366A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 56002D505B0F8B2C0D72641B21933320;
+			remoteGlobalIDString = 7AD634CFDC68CEEB011EB4DB3D694199;
 			remoteInfo = Navi;
 		};
-		BD7A631B7DD015797B8518D428824D66 /* PBXContainerItemProxy */ = {
+		621E2441A8317F32B9F9FF5565ADEA23 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F81E714503662C616DBD07F5623B66E1;
+			remoteGlobalIDString = E40BF48D1561E1DD2B1F28B821CB2DDD;
 			remoteInfo = "Pods-NaviDemo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		088F64A3926C65712B70332A24C3466D /* Pods-NaviDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaviDemo.modulemap"; sourceTree = "<group>"; };
-		1357660E4E43F34D8A9152DE08B2E874 /* Navi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Navi.modulemap; sourceTree = "<group>"; };
-		16727C2458724B4839829FEBA94370A9 /* Pods-NaviDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaviDemoTests-dummy.m"; sourceTree = "<group>"; };
-		1D16F38465D3CE54870F428444C27703 /* Navi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navi-umbrella.h"; sourceTree = "<group>"; };
-		242DE9AAC41A1641B838AF17B383C070 /* NaviHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaviHeader.swift; path = Navi/NaviHeader.swift; sourceTree = "<group>"; };
-		27F64D9817630F026C2E77D27AB2878E /* Pods-NaviDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		29F4C47CC621B4F9C7FEB057F9C92FBD /* Navi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Navi.xcconfig; sourceTree = "<group>"; };
-		326D200CADF65E3EEC2A3B9266637157 /* AllTouchesGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AllTouchesGestureRecognizer.h; path = Navi/AllTouchesGestureRecognizer.h; sourceTree = "<group>"; };
-		35C69386EDB6F3B3F4EE06284AA81DC7 /* Pods-NaviDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaviDemo-frameworks.sh"; sourceTree = "<group>"; };
-		3CABED915D49E65008794A3F30F6476D /* Pods-NaviDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3DC8B1132FAD1725187E0607BF477F1D /* Pods-NaviDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaviDemoTests.modulemap"; sourceTree = "<group>"; };
-		45684B885B1FAE5622C209737EB70E2D /* Pods-NaviDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaviDemo-dummy.m"; sourceTree = "<group>"; };
-		4662C4184EF7380907964C04294FE39B /* Pods_NaviDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaviDemoUITests.framework; path = "Pods-NaviDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		50D7B5C79059E61F604027B8DF96B77C /* Pods-NaviDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaviDemoUITests-dummy.m"; sourceTree = "<group>"; };
-		514B2CAAA100FDAE95BE259E6C680109 /* Pods-NaviDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemo.release.xcconfig"; sourceTree = "<group>"; };
-		51840724D4E0DCE652BA8A858C7BE953 /* TouchesGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchesGestureRecognizer.swift; path = Navi/TouchesGestureRecognizer.swift; sourceTree = "<group>"; };
-		554DACC85A44279BF7030B5730B29F6D /* Command.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Command.swift; path = Navi/Command.swift; sourceTree = "<group>"; };
-		5C348B5285178286F7F4811BB8EC371C /* Pods-NaviDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaviDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5C5C2477F7D7327D412813815F51137B /* Pods-NaviDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaviDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		620C8D35D364F07708CE1E3FFA900D24 /* Pods-NaviDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaviDemoUITests.modulemap"; sourceTree = "<group>"; };
-		62DE7E76FCF05A8BFACC73A652DFB325 /* Pods-NaviDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaviDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		63AC6515C82983659F1E941342734C82 /* Pods-NaviDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6472D6C0BF200C742667A445804ED95F /* Pods_NaviDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaviDemo.framework; path = "Pods-NaviDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		65E4BA69BCD0AD33148EC7C50E7B79AB /* Pods-NaviDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemo-Info.plist"; sourceTree = "<group>"; };
-		72D8688190C8A573E65FCB0E6CE1ECF7 /* NaviProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaviProtocol.swift; path = Navi/NaviProtocol.swift; sourceTree = "<group>"; };
-		798DA17B3BAF41C410820FEEA9826B54 /* Pods-NaviDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaviDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		7ACAF31856573C009AFAC4EA36E5C4F4 /* Navi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Navi.framework; path = Navi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8502752F29F75131D748F59767562B3E /* Pods-NaviDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaviDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		8B450BEB8EC933F227CC481A73A54009 /* Pods-NaviDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		8D019247C81ED2B8C8A610C315F5B8BE /* Navi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Navi-Info.plist"; sourceTree = "<group>"; };
-		A0BE5CF1F0740103A2874E6C2E804FF0 /* Pods-NaviDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		A39071BFABAAA00882573BC0B791ED16 /* Pods_NaviDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaviDemoTests.framework; path = "Pods-NaviDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5249E818A64CE29B38944CE1D326F61 /* Pods-NaviDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1815B158F8EDD4629039E4AA0D7EA43 /* Navi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Navi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B74584DC9902E7599292A8C5DBF41552 /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Navi/Node.swift; sourceTree = "<group>"; };
-		C050286358FC5678375ECCB4771C9F94 /* Navi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navi-prefix.pch"; sourceTree = "<group>"; };
-		C06EE79D2D702B453011F64E9359B6B2 /* Pods-NaviDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaviDemo-umbrella.h"; sourceTree = "<group>"; };
-		D0F3CF24B7521499507575F04C3B32F1 /* Pods-NaviDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E512B9D441A1858B064C0AE7F70F1123 /* Navi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Navi-dummy.m"; sourceTree = "<group>"; };
-		E7AFA2039BB46F3C47845F82E60ACD3E /* NaviManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaviManager.swift; path = Navi/NaviManager.swift; sourceTree = "<group>"; };
-		EC287C981619C9DE851901E543390A52 /* Pods-NaviDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemoTests-Info.plist"; sourceTree = "<group>"; };
-		F6885B9C1D96955C8E3F5B6740B51DA1 /* AllTouchesGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AllTouchesGestureRecognizer.m; path = Navi/AllTouchesGestureRecognizer.m; sourceTree = "<group>"; };
-		F6AF2E9753818EDF90197EF411F5FC45 /* Pods-NaviDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		FD46B0EC4F274C1D333B408E85CBA0F6 /* Pods-NaviDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemoUITests-Info.plist"; sourceTree = "<group>"; };
-		FD46F7E0AA886A2F111269FB3F52D2C3 /* Navi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Navi.h; path = Navi/Navi.h; sourceTree = "<group>"; };
+		05F4BC572869CB75DC1B83D89D62E295 /* Pods-NaviDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		06F4E50E1C38E4BCBFBCB48C3AFC4F68 /* Pods-NaviDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		205B87D3E0D1D8DED7933DD252AE0D6B /* Pods-NaviDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaviDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3118CCD850F8EA8A3CBC75FC59DA0F92 /* AllTouchesGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AllTouchesGestureRecognizer.m; path = Navi/AllTouchesGestureRecognizer.m; sourceTree = "<group>"; };
+		35368492DA3743E32B17DB07CC7901E5 /* Pods-NaviDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaviDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		3C171C4E8A6C2A1F00D623289FD39501 /* Navi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Navi.xcconfig; sourceTree = "<group>"; };
+		3D0742CB32091746F3534E51E79EDAAD /* Pods-NaviDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaviDemo.modulemap"; sourceTree = "<group>"; };
+		4075DBEBFDE6876E5DAAEEBF8FACADFC /* Navi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Navi.framework; path = Navi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		479DBB8271FF17EB48B8C97949A6623E /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Navi/Node.swift; sourceTree = "<group>"; };
+		48CD6699AD02D27C5C2B28E88861B595 /* Navi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navi-prefix.pch"; sourceTree = "<group>"; };
+		4C2D415CAEA73A9FB8E729D9F5A9AC48 /* NaviProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaviProtocol.swift; path = Navi/NaviProtocol.swift; sourceTree = "<group>"; };
+		4F5AB794783DD5C5F8AD16C1711A31FC /* Navi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Navi.modulemap; sourceTree = "<group>"; };
+		51ACFAE1790D9B31C785092E4F923D06 /* Pods-NaviDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NaviDemoTests.modulemap"; sourceTree = "<group>"; };
+		5F1AA95A30FAD5179ECECD84D32282C4 /* Navi.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Navi.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5F2BF7450835FF119A6A0670C37728AE /* Navi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Navi-umbrella.h"; sourceTree = "<group>"; };
+		6763D24705CE4190EF0E5172667E4C43 /* Pods-NaviDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7AD35B553DDF8B6BA4745120592701B6 /* Pods-NaviDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemo-Info.plist"; sourceTree = "<group>"; };
+		7B5A4C4517A26B9B513E3865B681C73F /* Pods_NaviDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaviDemo.framework; path = "Pods-NaviDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810172E6585898FDEC0F0403845B446D /* Pods-NaviDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemoTests-Info.plist"; sourceTree = "<group>"; };
+		82332A02B5ECD3051003EBF2C46D0AF3 /* Pods-NaviDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaviDemo-dummy.m"; sourceTree = "<group>"; };
+		850EEF09BC66A35D94EE09A1FCDA70CB /* Navi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Navi.h; path = Navi/Navi.h; sourceTree = "<group>"; };
+		87D22CEB9D59784148876E7F763A74AB /* Navi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Navi-dummy.m"; sourceTree = "<group>"; };
+		931ABD4950D04329E92A9368D08EB3C4 /* Pods_NaviDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NaviDemoTests.framework; path = "Pods-NaviDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CED66A5D332C76B6585A74DA834C6AA /* TouchesGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TouchesGestureRecognizer.swift; path = Navi/TouchesGestureRecognizer.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E6DA9B3F13613D4DEF6B9CD34CBF9CE /* Pods-NaviDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NaviDemo-umbrella.h"; sourceTree = "<group>"; };
+		A2545B909CA195D76F6837B3F6BA3F4D /* AllTouchesGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AllTouchesGestureRecognizer.h; path = Navi/AllTouchesGestureRecognizer.h; sourceTree = "<group>"; };
+		A4162AAC1931BD7B6DE9B4CB18A44121 /* Pods-NaviDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A90AD346759528D045ABB1EA7CCF9A01 /* Command.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Command.swift; path = Navi/Command.swift; sourceTree = "<group>"; };
+		B95C4A2B5F24BAB6EF1382ECC135050B /* Navi-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Navi-Info.plist"; sourceTree = "<group>"; };
+		BA7A6D8C0A6A582578DA2836414758A9 /* NaviHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaviHeader.swift; path = Navi/NaviHeader.swift; sourceTree = "<group>"; };
+		C935FD0B9FE48EE3DE54BAD6CC4A2EC5 /* Pods-NaviDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NaviDemo-frameworks.sh"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE4CF0B8E2A580A5A32737D9E6CEF24C /* Pods-NaviDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NaviDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED016122D0D07A6DC613C70AF9BEF167 /* NaviManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NaviManager.swift; path = Navi/NaviManager.swift; sourceTree = "<group>"; };
+		ED61FAD18D920452A11E5342B648FE51 /* Pods-NaviDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NaviDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F04F6AACA91F7C19A1878583C208DD48 /* Pods-NaviDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NaviDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB6E37CA82C92C08608E857273F27A6B /* Pods-NaviDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NaviDemoTests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A5BEA163FFE125BBD88FD5B5A88BC2B /* Frameworks */ = {
+		067554E10F34FE4A0C094CA4839362FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F30444B1B7EF3412788E3D125B74A40 /* Foundation.framework in Frameworks */,
+				8A1C02FDA1E2F7858ADA594C2DCB641A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		80E0C0C708BF8E3C35ADAB84D598316A /* Frameworks */ = {
+		1B31C12A2809CA5A4BE534EE9E61642E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C77CDC6C5C0325E9345EF3800E622343 /* Foundation.framework in Frameworks */,
+				C5BF13F52D9B1B51ED379C9EFB4AFC4A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9DA3C83454DFEC5E628E9758D1111612 /* Frameworks */ = {
+		6D93E3CDB7AAD0E50B58D590F5F9C810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C5457F6DC84009455F8779D63DCA044 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CF54CE7645A7CEDCD1BEB28BFE3976B6 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8CF8B3BED7FCD5227A40963162202FCA /* Foundation.framework in Frameworks */,
+				C9F58ABEE99072B353B5E3411DB7BB8C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C95D3FF082E10CAF128558FE357C7BE /* Products */ = {
+		2F52679C5A696C26759A6051A79BDE00 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				7ACAF31856573C009AFAC4EA36E5C4F4 /* Navi.framework */,
-				6472D6C0BF200C742667A445804ED95F /* Pods_NaviDemo.framework */,
-				A39071BFABAAA00882573BC0B791ED16 /* Pods_NaviDemoTests.framework */,
-				4662C4184EF7380907964C04294FE39B /* Pods_NaviDemoUITests.framework */,
+				5F1AA95A30FAD5179ECECD84D32282C4 /* Navi.podspec */,
 			);
-			name = Products;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
+		446F70B8F655FEA25138F044615E2410 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		62A4E41B722072B540E5D48CDFFC2AAD /* Pods-NaviDemo */ = {
-			isa = PBXGroup;
-			children = (
-				088F64A3926C65712B70332A24C3466D /* Pods-NaviDemo.modulemap */,
-				5C5C2477F7D7327D412813815F51137B /* Pods-NaviDemo-acknowledgements.markdown */,
-				8B450BEB8EC933F227CC481A73A54009 /* Pods-NaviDemo-acknowledgements.plist */,
-				45684B885B1FAE5622C209737EB70E2D /* Pods-NaviDemo-dummy.m */,
-				35C69386EDB6F3B3F4EE06284AA81DC7 /* Pods-NaviDemo-frameworks.sh */,
-				65E4BA69BCD0AD33148EC7C50E7B79AB /* Pods-NaviDemo-Info.plist */,
-				C06EE79D2D702B453011F64E9359B6B2 /* Pods-NaviDemo-umbrella.h */,
-				A0BE5CF1F0740103A2874E6C2E804FF0 /* Pods-NaviDemo.debug.xcconfig */,
-				514B2CAAA100FDAE95BE259E6C680109 /* Pods-NaviDemo.release.xcconfig */,
-			);
-			name = "Pods-NaviDemo";
-			path = "Target Support Files/Pods-NaviDemo";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				D3579E691097527310438849F6B9E380 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				2C95D3FF082E10CAF128558FE357C7BE /* Products */,
-				FBEE7461AD2ED58FF360688C3E89649D /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		8683E38D63BA6FA5D5DEFB7F0C172A2A /* Pods-NaviDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				3DC8B1132FAD1725187E0607BF477F1D /* Pods-NaviDemoTests.modulemap */,
-				5C348B5285178286F7F4811BB8EC371C /* Pods-NaviDemoTests-acknowledgements.markdown */,
-				A5249E818A64CE29B38944CE1D326F61 /* Pods-NaviDemoTests-acknowledgements.plist */,
-				16727C2458724B4839829FEBA94370A9 /* Pods-NaviDemoTests-dummy.m */,
-				EC287C981619C9DE851901E543390A52 /* Pods-NaviDemoTests-Info.plist */,
-				798DA17B3BAF41C410820FEEA9826B54 /* Pods-NaviDemoTests-umbrella.h */,
-				D0F3CF24B7521499507575F04C3B32F1 /* Pods-NaviDemoTests.debug.xcconfig */,
-				F6AF2E9753818EDF90197EF411F5FC45 /* Pods-NaviDemoTests.release.xcconfig */,
-			);
-			name = "Pods-NaviDemoTests";
-			path = "Target Support Files/Pods-NaviDemoTests";
-			sourceTree = "<group>";
-		};
-		A2370135F1AE77F7D34A517836B086A3 /* Navi */ = {
-			isa = PBXGroup;
-			children = (
-				326D200CADF65E3EEC2A3B9266637157 /* AllTouchesGestureRecognizer.h */,
-				F6885B9C1D96955C8E3F5B6740B51DA1 /* AllTouchesGestureRecognizer.m */,
-				554DACC85A44279BF7030B5730B29F6D /* Command.swift */,
-				FD46F7E0AA886A2F111269FB3F52D2C3 /* Navi.h */,
-				242DE9AAC41A1641B838AF17B383C070 /* NaviHeader.swift */,
-				E7AFA2039BB46F3C47845F82E60ACD3E /* NaviManager.swift */,
-				72D8688190C8A573E65FCB0E6CE1ECF7 /* NaviProtocol.swift */,
-				B74584DC9902E7599292A8C5DBF41552 /* Node.swift */,
-				51840724D4E0DCE652BA8A858C7BE953 /* TouchesGestureRecognizer.swift */,
-				FAEA8883DB1EF2132C9A0E37476330FF /* Pod */,
-				E139585724FAD17BA9204641BB20310B /* Support Files */,
-			);
-			name = Navi;
-			path = ../Navi;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D3579E691097527310438849F6B9E380 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				A2370135F1AE77F7D34A517836B086A3 /* Navi */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		DF81927FABF10C3699FC0337BB808909 /* Pods-NaviDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				620C8D35D364F07708CE1E3FFA900D24 /* Pods-NaviDemoUITests.modulemap */,
-				62DE7E76FCF05A8BFACC73A652DFB325 /* Pods-NaviDemoUITests-acknowledgements.markdown */,
-				3CABED915D49E65008794A3F30F6476D /* Pods-NaviDemoUITests-acknowledgements.plist */,
-				50D7B5C79059E61F604027B8DF96B77C /* Pods-NaviDemoUITests-dummy.m */,
-				FD46B0EC4F274C1D333B408E85CBA0F6 /* Pods-NaviDemoUITests-Info.plist */,
-				8502752F29F75131D748F59767562B3E /* Pods-NaviDemoUITests-umbrella.h */,
-				63AC6515C82983659F1E941342734C82 /* Pods-NaviDemoUITests.debug.xcconfig */,
-				27F64D9817630F026C2E77D27AB2878E /* Pods-NaviDemoUITests.release.xcconfig */,
-			);
-			name = "Pods-NaviDemoUITests";
-			path = "Target Support Files/Pods-NaviDemoUITests";
-			sourceTree = "<group>";
-		};
-		E139585724FAD17BA9204641BB20310B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1357660E4E43F34D8A9152DE08B2E874 /* Navi.modulemap */,
-				29F4C47CC621B4F9C7FEB057F9C92FBD /* Navi.xcconfig */,
-				E512B9D441A1858B064C0AE7F70F1123 /* Navi-dummy.m */,
-				8D019247C81ED2B8C8A610C315F5B8BE /* Navi-Info.plist */,
-				C050286358FC5678375ECCB4771C9F94 /* Navi-prefix.pch */,
-				1D16F38465D3CE54870F428444C27703 /* Navi-umbrella.h */,
+				4F5AB794783DD5C5F8AD16C1711A31FC /* Navi.modulemap */,
+				3C171C4E8A6C2A1F00D623289FD39501 /* Navi.xcconfig */,
+				87D22CEB9D59784148876E7F763A74AB /* Navi-dummy.m */,
+				B95C4A2B5F24BAB6EF1382ECC135050B /* Navi-Info.plist */,
+				48CD6699AD02D27C5C2B28E88861B595 /* Navi-prefix.pch */,
+				5F2BF7450835FF119A6A0670C37728AE /* Navi-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Pods/Target Support Files/Navi";
 			sourceTree = "<group>";
 		};
-		FAEA8883DB1EF2132C9A0E37476330FF /* Pod */ = {
+		476F418C2E4D50B5AC470871DBC93476 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				B1815B158F8EDD4629039E4AA0D7EA43 /* Navi.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		FBEE7461AD2ED58FF360688C3E89649D /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				62A4E41B722072B540E5D48CDFFC2AAD /* Pods-NaviDemo */,
-				8683E38D63BA6FA5D5DEFB7F0C172A2A /* Pods-NaviDemoTests */,
-				DF81927FABF10C3699FC0337BB808909 /* Pods-NaviDemoUITests */,
+				47EC6300919A8C620C72400259D4AB86 /* Pods-NaviDemo */,
+				EE18F4854C64CB905065382757F274AA /* Pods-NaviDemoTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		47EC6300919A8C620C72400259D4AB86 /* Pods-NaviDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3D0742CB32091746F3534E51E79EDAAD /* Pods-NaviDemo.modulemap */,
+				205B87D3E0D1D8DED7933DD252AE0D6B /* Pods-NaviDemo-acknowledgements.markdown */,
+				ED61FAD18D920452A11E5342B648FE51 /* Pods-NaviDemo-acknowledgements.plist */,
+				82332A02B5ECD3051003EBF2C46D0AF3 /* Pods-NaviDemo-dummy.m */,
+				C935FD0B9FE48EE3DE54BAD6CC4A2EC5 /* Pods-NaviDemo-frameworks.sh */,
+				7AD35B553DDF8B6BA4745120592701B6 /* Pods-NaviDemo-Info.plist */,
+				9E6DA9B3F13613D4DEF6B9CD34CBF9CE /* Pods-NaviDemo-umbrella.h */,
+				05F4BC572869CB75DC1B83D89D62E295 /* Pods-NaviDemo.debug.xcconfig */,
+				A4162AAC1931BD7B6DE9B4CB18A44121 /* Pods-NaviDemo.release.xcconfig */,
+			);
+			name = "Pods-NaviDemo";
+			path = "Target Support Files/Pods-NaviDemo";
+			sourceTree = "<group>";
+		};
+		664CD318DB594ED10FD49AE285BACF8B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE3DC4FB6FDB580BD943254604BB2A /* Navi */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A6D035CD2D73CCA5F737FD381679FCC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4075DBEBFDE6876E5DAAEEBF8FACADFC /* Navi.framework */,
+				7B5A4C4517A26B9B513E3865B681C73F /* Pods_NaviDemo.framework */,
+				931ABD4950D04329E92A9368D08EB3C4 /* Pods_NaviDemoTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACBE3DC4FB6FDB580BD943254604BB2A /* Navi */ = {
+			isa = PBXGroup;
+			children = (
+				A2545B909CA195D76F6837B3F6BA3F4D /* AllTouchesGestureRecognizer.h */,
+				3118CCD850F8EA8A3CBC75FC59DA0F92 /* AllTouchesGestureRecognizer.m */,
+				A90AD346759528D045ABB1EA7CCF9A01 /* Command.swift */,
+				850EEF09BC66A35D94EE09A1FCDA70CB /* Navi.h */,
+				BA7A6D8C0A6A582578DA2836414758A9 /* NaviHeader.swift */,
+				ED016122D0D07A6DC613C70AF9BEF167 /* NaviManager.swift */,
+				4C2D415CAEA73A9FB8E729D9F5A9AC48 /* NaviProtocol.swift */,
+				479DBB8271FF17EB48B8C97949A6623E /* Node.swift */,
+				9CED66A5D332C76B6585A74DA834C6AA /* TouchesGestureRecognizer.swift */,
+				2F52679C5A696C26759A6051A79BDE00 /* Pod */,
+				446F70B8F655FEA25138F044615E2410 /* Support Files */,
+			);
+			name = Navi;
+			path = ../Navi;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				664CD318DB594ED10FD49AE285BACF8B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A6D035CD2D73CCA5F737FD381679FCC6 /* Products */,
+				476F418C2E4D50B5AC470871DBC93476 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE18F4854C64CB905065382757F274AA /* Pods-NaviDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				51ACFAE1790D9B31C785092E4F923D06 /* Pods-NaviDemoTests.modulemap */,
+				F04F6AACA91F7C19A1878583C208DD48 /* Pods-NaviDemoTests-acknowledgements.markdown */,
+				6763D24705CE4190EF0E5172667E4C43 /* Pods-NaviDemoTests-acknowledgements.plist */,
+				FB6E37CA82C92C08608E857273F27A6B /* Pods-NaviDemoTests-dummy.m */,
+				810172E6585898FDEC0F0403845B446D /* Pods-NaviDemoTests-Info.plist */,
+				35368492DA3743E32B17DB07CC7901E5 /* Pods-NaviDemoTests-umbrella.h */,
+				CE4CF0B8E2A580A5A32737D9E6CEF24C /* Pods-NaviDemoTests.debug.xcconfig */,
+				06F4E50E1C38E4BCBFBCB48C3AFC4F68 /* Pods-NaviDemoTests.release.xcconfig */,
+			);
+			name = "Pods-NaviDemoTests";
+			path = "Target Support Files/Pods-NaviDemoTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C2AA8EB7A9A5BF267D4B66B191F8D635 /* Headers */ = {
+		50C10470537C2A963D0C557A9239FC44 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				168947E313D08348EFCD526C09E284C5 /* AllTouchesGestureRecognizer.h in Headers */,
-				0E54D8B4F096AEFB37E8F566914B8424 /* Navi-umbrella.h in Headers */,
-				AFEC68E63BE8DA31D21288B5C29726EB /* Navi.h in Headers */,
+				0CDD4FE2A4D65A904CD5D1DA2B5FE27D /* Pods-NaviDemoTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE0095764FDFF695674AFCD92F72078C /* Headers */ = {
+		7A89130EE5D6D13C7EDE299D3487E998 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10DD0B57D91F57E9164201FE9353392E /* Pods-NaviDemoUITests-umbrella.h in Headers */,
+				8827043ABA31193AFE242353CB63A4F3 /* AllTouchesGestureRecognizer.h in Headers */,
+				41DCC935017239D03325F1C222864A2F /* Navi-umbrella.h in Headers */,
+				DA36125EF1F39F91D4CE4D4098A697D4 /* Navi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1F682B8A3B4D2FC51752448682612B9 /* Headers */ = {
+		A185090DDF5024766B5AA2D169170A41 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CFF7601658EA8F92D3F0D46566E709A /* Pods-NaviDemoTests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D51C88ABE497A21B32FA019E3BFFC9F8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				23FDD3948928CA803330E14E356CF26B /* Pods-NaviDemo-umbrella.h in Headers */,
+				7B40049E7C594142A632C2AC4014E701 /* Pods-NaviDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		56002D505B0F8B2C0D72641B21933320 /* Navi */ = {
+		1859295F2C3AE3A2782AFD0963021F56 /* Pods-NaviDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BDE392BCDCF690D5213B2CDD974E79F9 /* Build configuration list for PBXNativeTarget "Navi" */;
+			buildConfigurationList = 9280DE56E6108041758B6957D32B6C1E /* Build configuration list for PBXNativeTarget "Pods-NaviDemoTests" */;
 			buildPhases = (
-				C2AA8EB7A9A5BF267D4B66B191F8D635 /* Headers */,
-				258E5D86BCE3C248AC541C8A904723F3 /* Sources */,
-				9DA3C83454DFEC5E628E9758D1111612 /* Frameworks */,
-				792A713D5C6AFE1CBD0158664C08ED17 /* Resources */,
+				50C10470537C2A963D0C557A9239FC44 /* Headers */,
+				9102098082D0CE07AEA6F2612D14CF9D /* Sources */,
+				1B31C12A2809CA5A4BE534EE9E61642E /* Frameworks */,
+				A114FB8D2139B0691134308927918058 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CDFC22AA452AE53C58551DAFDA6FA3E /* PBXTargetDependency */,
+			);
+			name = "Pods-NaviDemoTests";
+			productName = "Pods-NaviDemoTests";
+			productReference = 931ABD4950D04329E92A9368D08EB3C4 /* Pods_NaviDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7AD634CFDC68CEEB011EB4DB3D694199 /* Navi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CD4B3B4AB5BE15238D7A0755A36D30A /* Build configuration list for PBXNativeTarget "Navi" */;
+			buildPhases = (
+				7A89130EE5D6D13C7EDE299D3487E998 /* Headers */,
+				9FFF33A66E0972A51B32916950CFCD83 /* Sources */,
+				6D93E3CDB7AAD0E50B58D590F5F9C810 /* Frameworks */,
+				F8BE5A3D498BEBBC63E5F29AAC417AEA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -341,118 +307,72 @@
 			);
 			name = Navi;
 			productName = Navi;
-			productReference = 7ACAF31856573C009AFAC4EA36E5C4F4 /* Navi.framework */;
+			productReference = 4075DBEBFDE6876E5DAAEEBF8FACADFC /* Navi.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F2C53D55FE84F5278B8C687286E64E87 /* Pods-NaviDemoTests */ = {
+		E40BF48D1561E1DD2B1F28B821CB2DDD /* Pods-NaviDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1AB19582CFCD1977E102CCA2C396943 /* Build configuration list for PBXNativeTarget "Pods-NaviDemoTests" */;
+			buildConfigurationList = 42A5BADA1B4423553BAFAFB8AEBBC653 /* Build configuration list for PBXNativeTarget "Pods-NaviDemo" */;
 			buildPhases = (
-				D1F682B8A3B4D2FC51752448682612B9 /* Headers */,
-				7A277137CA4424FEBE216DFFADF8ACDF /* Sources */,
-				CF54CE7645A7CEDCD1BEB28BFE3976B6 /* Frameworks */,
-				17EFC91AF3A18C6E75DD4A4077B54015 /* Resources */,
+				A185090DDF5024766B5AA2D169170A41 /* Headers */,
+				809CE313BA1E50DE7A44D1D1B7FDEB9C /* Sources */,
+				067554E10F34FE4A0C094CA4839362FF /* Frameworks */,
+				0309201A57825EC4DFC501BAB8AC270C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				27D72CACA5452D110ADFF7E87618E4C4 /* PBXTargetDependency */,
-			);
-			name = "Pods-NaviDemoTests";
-			productName = "Pods-NaviDemoTests";
-			productReference = A39071BFABAAA00882573BC0B791ED16 /* Pods_NaviDemoTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F81E714503662C616DBD07F5623B66E1 /* Pods-NaviDemo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5E5DB7961CD4E4479E97B38992766691 /* Build configuration list for PBXNativeTarget "Pods-NaviDemo" */;
-			buildPhases = (
-				D51C88ABE497A21B32FA019E3BFFC9F8 /* Headers */,
-				2A134DBB1C2A7275326D31252443AB64 /* Sources */,
-				80E0C0C708BF8E3C35ADAB84D598316A /* Frameworks */,
-				F63A215FCBCAC9749A3ABC87049112F7 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				91FB0951592C9864FD49AA9082047044 /* PBXTargetDependency */,
+				A27A8E627F58D0042929D0E07D2F32A9 /* PBXTargetDependency */,
 			);
 			name = "Pods-NaviDemo";
 			productName = "Pods-NaviDemo";
-			productReference = 6472D6C0BF200C742667A445804ED95F /* Pods_NaviDemo.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F99C91B4CFF1089369653B6863500177 /* Pods-NaviDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 061DB16B5BEF7B78BE81BF51A0CDB14F /* Build configuration list for PBXNativeTarget "Pods-NaviDemoUITests" */;
-			buildPhases = (
-				CE0095764FDFF695674AFCD92F72078C /* Headers */,
-				C1B2D813B6C2E9AB169B2D3F6DECEFEA /* Sources */,
-				4A5BEA163FFE125BBD88FD5B5A88BC2B /* Frameworks */,
-				F2ED4EF6445F2EA756AEFDBACD5A8225 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4C785CA81F53F01BA92DAFEC49E44B73 /* PBXTargetDependency */,
-			);
-			name = "Pods-NaviDemoUITests";
-			productName = "Pods-NaviDemoUITests";
-			productReference = 4662C4184EF7380907964C04294FE39B /* Pods_NaviDemoUITests.framework */;
+			productReference = 7B5A4C4517A26B9B513E3865B681C73F /* Pods_NaviDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 2C95D3FF082E10CAF128558FE357C7BE /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A6D035CD2D73CCA5F737FD381679FCC6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				56002D505B0F8B2C0D72641B21933320 /* Navi */,
-				F81E714503662C616DBD07F5623B66E1 /* Pods-NaviDemo */,
-				F2C53D55FE84F5278B8C687286E64E87 /* Pods-NaviDemoTests */,
-				F99C91B4CFF1089369653B6863500177 /* Pods-NaviDemoUITests */,
+				7AD634CFDC68CEEB011EB4DB3D694199 /* Navi */,
+				E40BF48D1561E1DD2B1F28B821CB2DDD /* Pods-NaviDemo */,
+				1859295F2C3AE3A2782AFD0963021F56 /* Pods-NaviDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		17EFC91AF3A18C6E75DD4A4077B54015 /* Resources */ = {
+		0309201A57825EC4DFC501BAB8AC270C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		792A713D5C6AFE1CBD0158664C08ED17 /* Resources */ = {
+		A114FB8D2139B0691134308927918058 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2ED4EF6445F2EA756AEFDBACD5A8225 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F63A215FCBCAC9749A3ABC87049112F7 /* Resources */ = {
+		F8BE5A3D498BEBBC63E5F29AAC417AEA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -462,70 +382,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		258E5D86BCE3C248AC541C8A904723F3 /* Sources */ = {
+		809CE313BA1E50DE7A44D1D1B7FDEB9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EE0430529A533D28DAD80A5A2E2AD53 /* AllTouchesGestureRecognizer.m in Sources */,
-				64B27165B1A0AC68DF8CC8A62B4D2C4B /* Command.swift in Sources */,
-				51CB7554E3AB7949ABC8E81258288218 /* Navi-dummy.m in Sources */,
-				BBBE419298EAA9F02A38018F53D3A6F5 /* NaviHeader.swift in Sources */,
-				DD562B8C8C795E044E74179B4C20BD40 /* NaviManager.swift in Sources */,
-				254CCB17186D0B0CE71F733004C7E6E2 /* NaviProtocol.swift in Sources */,
-				0F289A2DEB77A520471DF0A72992089A /* Node.swift in Sources */,
-				B83E45E3B9B56EE23B05F4243E35031A /* TouchesGestureRecognizer.swift in Sources */,
+				9C0E3213FE9A84CCE66DFE3DEBB6BA93 /* Pods-NaviDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A134DBB1C2A7275326D31252443AB64 /* Sources */ = {
+		9102098082D0CE07AEA6F2612D14CF9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B431571514C7378AFA1181C9C0F1DF1 /* Pods-NaviDemo-dummy.m in Sources */,
+				22EDD14BD4C1D5E7A752F64B41BCD647 /* Pods-NaviDemoTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7A277137CA4424FEBE216DFFADF8ACDF /* Sources */ = {
+		9FFF33A66E0972A51B32916950CFCD83 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				611D2D1C99372A90F869916B38992F92 /* Pods-NaviDemoTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C1B2D813B6C2E9AB169B2D3F6DECEFEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9794229C8DA3568001A0975B7057CCA8 /* Pods-NaviDemoUITests-dummy.m in Sources */,
+				551F72C15284745D7D2F01C9DE096F55 /* AllTouchesGestureRecognizer.m in Sources */,
+				FC26B516F393617E5C780458A41997C9 /* Command.swift in Sources */,
+				D14306F739D365F7551937FF20D82C60 /* Navi-dummy.m in Sources */,
+				492D52D245EAF72DF1DFE71A48427F17 /* NaviHeader.swift in Sources */,
+				CA7510DB4C0B4E6D800F870D515D7EB2 /* NaviManager.swift in Sources */,
+				88BA8493053D87013E61862C34D98F2D /* NaviProtocol.swift in Sources */,
+				51A9E4313E40D7DD8422D0C41E0EC36A /* Node.swift in Sources */,
+				D2EA5B86A551120119173872BC99254A /* TouchesGestureRecognizer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		27D72CACA5452D110ADFF7E87618E4C4 /* PBXTargetDependency */ = {
+		6CDFC22AA452AE53C58551DAFDA6FA3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-NaviDemo";
-			target = F81E714503662C616DBD07F5623B66E1 /* Pods-NaviDemo */;
-			targetProxy = BD7A631B7DD015797B8518D428824D66 /* PBXContainerItemProxy */;
+			target = E40BF48D1561E1DD2B1F28B821CB2DDD /* Pods-NaviDemo */;
+			targetProxy = 621E2441A8317F32B9F9FF5565ADEA23 /* PBXContainerItemProxy */;
 		};
-		4C785CA81F53F01BA92DAFEC49E44B73 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-NaviDemo";
-			target = F81E714503662C616DBD07F5623B66E1 /* Pods-NaviDemo */;
-			targetProxy = 76A54255FCD2EFA758B0FE37DC8B4A55 /* PBXContainerItemProxy */;
-		};
-		91FB0951592C9864FD49AA9082047044 /* PBXTargetDependency */ = {
+		A27A8E627F58D0042929D0E07D2F32A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Navi;
-			target = 56002D505B0F8B2C0D72641B21933320 /* Navi */;
-			targetProxy = A11D3243C64C1848814926FCB510366A /* PBXContainerItemProxy */;
+			target = 7AD634CFDC68CEEB011EB4DB3D694199 /* Navi */;
+			targetProxy = 09855375FADDF084EF7ED046D42000D6 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08B0394D5F17A9F046DC0719C25BA452 /* Debug */ = {
+		07488D4657FB0A78086563621D425F8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -589,45 +495,9 @@
 			};
 			name = Debug;
 		};
-		117E609F8DAD1ABFA9D0C4DDEEA6F25F /* Release */ = {
+		0797CD4372F7D85B405B990A5DBC1B5E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29F4C47CC621B4F9C7FEB057F9C92FBD /* Navi.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Navi/Navi-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Navi/Navi-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Navi/Navi.modulemap";
-				PRODUCT_MODULE_NAME = Navi;
-				PRODUCT_NAME = Navi;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		24C505439D8B62A4C05DD1BAF15F483C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29F4C47CC621B4F9C7FEB057F9C92FBD /* Navi.xcconfig */;
+			baseConfigurationReference = 3C171C4E8A6C2A1F00D623289FD39501 /* Navi.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -660,9 +530,9 @@
 			};
 			name = Debug;
 		};
-		63164E42E9697DDDAE91523DB5796CCA /* Release */ = {
+		1BB27A23A7163F3CDFF24B0ACAC716C5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 27F64D9817630F026C2E77D27AB2878E /* Pods-NaviDemoUITests.release.xcconfig */;
+			baseConfigurationReference = 05F4BC572869CB75DC1B83D89D62E295 /* Pods-NaviDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -674,7 +544,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NaviDemoUITests/Pods-NaviDemoUITests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaviDemo/Pods-NaviDemo-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -683,45 +553,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NaviDemoUITests/Pods-NaviDemoUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		836248AF0718748781F973E28DCF86E2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 63AC6515C82983659F1E941342734C82 /* Pods-NaviDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NaviDemoUITests/Pods-NaviDemoUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NaviDemoUITests/Pods-NaviDemoUITests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NaviDemo/Pods-NaviDemo.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -735,47 +567,9 @@
 			};
 			name = Debug;
 		};
-		8A09D24BC8B4C6F2CC546AA9FA0FEB1F /* Release */ = {
+		3D04FD0315493DD46E5A9EFE032B47A3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6AF2E9753818EDF90197EF411F5FC45 /* Pods-NaviDemoTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NaviDemoTests/Pods-NaviDemoTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NaviDemoTests/Pods-NaviDemoTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D5CDE28EB1B2BEB574F2A78E2996F12C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 514B2CAAA100FDAE95BE259E6C680109 /* Pods-NaviDemo.release.xcconfig */;
+			baseConfigurationReference = A4162AAC1931BD7B6DE9B4CB18A44121 /* Pods-NaviDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -811,9 +605,45 @@
 			};
 			name = Release;
 		};
-		E7196560F37E4135EA1F13F28B64623D /* Debug */ = {
+		58DBFDBAD7E61AB97B0358010FB5C5DC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0F3CF24B7521499507575F04C3B32F1 /* Pods-NaviDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 3C171C4E8A6C2A1F00D623289FD39501 /* Navi.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Navi/Navi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Navi/Navi-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Navi/Navi.modulemap";
+				PRODUCT_MODULE_NAME = Navi;
+				PRODUCT_NAME = Navi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8133AFAF341DF13F1324E60E5DD9DD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4CF0B8E2A580A5A32737D9E6CEF24C /* Pods-NaviDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -848,7 +678,7 @@
 			};
 			name = Debug;
 		};
-		E82C56363775B4EF468FF2AD9A2F5414 /* Release */ = {
+		A1962E6FF39BBAC201A2E5DDF99557DF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -908,9 +738,9 @@
 			};
 			name = Release;
 		};
-		F8D8C391F11ED49ED7E9535DBFE7B8B0 /* Debug */ = {
+		BC09DCE6E03D849B4E4F3EF7C090D9D0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0BE5CF1F0740103A2874E6C2E804FF0 /* Pods-NaviDemo.debug.xcconfig */;
+			baseConfigurationReference = 06F4E50E1C38E4BCBFBCB48C3AFC4F68 /* Pods-NaviDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -922,7 +752,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-NaviDemo/Pods-NaviDemo-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-NaviDemoTests/Pods-NaviDemoTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -931,7 +761,7 @@
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-NaviDemo/Pods-NaviDemo.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-NaviDemoTests/Pods-NaviDemoTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -940,60 +770,52 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		061DB16B5BEF7B78BE81BF51A0CDB14F /* Build configuration list for PBXNativeTarget "Pods-NaviDemoUITests" */ = {
+		1CD4B3B4AB5BE15238D7A0755A36D30A /* Build configuration list for PBXNativeTarget "Navi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				836248AF0718748781F973E28DCF86E2 /* Debug */,
-				63164E42E9697DDDAE91523DB5796CCA /* Release */,
+				0797CD4372F7D85B405B990A5DBC1B5E /* Debug */,
+				58DBFDBAD7E61AB97B0358010FB5C5DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		42A5BADA1B4423553BAFAFB8AEBBC653 /* Build configuration list for PBXNativeTarget "Pods-NaviDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				08B0394D5F17A9F046DC0719C25BA452 /* Debug */,
-				E82C56363775B4EF468FF2AD9A2F5414 /* Release */,
+				1BB27A23A7163F3CDFF24B0ACAC716C5 /* Debug */,
+				3D04FD0315493DD46E5A9EFE032B47A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E5DB7961CD4E4479E97B38992766691 /* Build configuration list for PBXNativeTarget "Pods-NaviDemo" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F8D8C391F11ED49ED7E9535DBFE7B8B0 /* Debug */,
-				D5CDE28EB1B2BEB574F2A78E2996F12C /* Release */,
+				07488D4657FB0A78086563621D425F8A /* Debug */,
+				A1962E6FF39BBAC201A2E5DDF99557DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BDE392BCDCF690D5213B2CDD974E79F9 /* Build configuration list for PBXNativeTarget "Navi" */ = {
+		9280DE56E6108041758B6957D32B6C1E /* Build configuration list for PBXNativeTarget "Pods-NaviDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24C505439D8B62A4C05DD1BAF15F483C /* Debug */,
-				117E609F8DAD1ABFA9D0C4DDEEA6F25F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D1AB19582CFCD1977E102CCA2C396943 /* Build configuration list for PBXNativeTarget "Pods-NaviDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7196560F37E4135EA1F13F28B64623D /* Debug */,
-				8A09D24BC8B4C6F2CC546AA9FA0FEB1F /* Release */,
+				8133AFAF341DF13F1324E60E5DD9DD52 /* Debug */,
+				BC09DCE6E03D849B4E4F3EF7C090D9D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
