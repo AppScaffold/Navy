@@ -6,10 +6,10 @@
 //  Copyright © 2018 Farfetch. All rights reserved.
 //
 
-#import <Navi/Navi-Swift.h>
 #import "AllTouchesGestureRecognizer.h"
 #import <UIKit/UIGestureRecognizerSubclass.h>
 #import <objc/runtime.h>
+#import <Navi/Navi-Swift.h>
 
 @implementation AllTouchesGestureRecognizer
 {

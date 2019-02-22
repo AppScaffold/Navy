@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0DCA21B84AADE56C42DC806D /* Pods_NaviDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF34366F7D25B23459264BF1 /* Pods_NaviDemoUITests.framework */; };
 		AE9B393A6BC371146E712E3A /* Pods_NaviDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96426724A8C7034ADF875487 /* Pods_NaviDemoTests.framework */; };
 		DA5011B821E48CC600321A46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5011B721E48CC600321A46 /* AppDelegate.swift */; };
 		DA5011BA21E48CC600321A46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5011B921E48CC600321A46 /* ViewController.swift */; };
@@ -15,7 +14,6 @@
 		DA5011BF21E48CC900321A46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5011BE21E48CC900321A46 /* Assets.xcassets */; };
 		DA5011C221E48CCA00321A46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5011C021E48CCA00321A46 /* LaunchScreen.storyboard */; };
 		DA5011CD21E48CCA00321A46 /* NaviDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5011CC21E48CCA00321A46 /* NaviDemoTests.swift */; };
-		DA5011D821E48CCA00321A46 /* NaviDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5011D721E48CCA00321A46 /* NaviDemoUITests.swift */; };
 		DA5011E621E4936300321A46 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5011E521E4936300321A46 /* FavoriteViewController.swift */; };
 		DA5011E821E4937200321A46 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5011E721E4937200321A46 /* DownloadViewController.swift */; };
 		DA5011EA21E4968100321A46 /* Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5011E921E4968100321A46 /* Navigation.swift */; };
@@ -31,13 +29,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		DA5011C921E48CCA00321A46 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DA5011AC21E48CC600321A46 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA5011B321E48CC600321A46;
-			remoteInfo = NaviDemo;
-		};
-		DA5011D421E48CCA00321A46 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DA5011AC21E48CC600321A46 /* Project object */;
 			proxyType = 1;
@@ -64,7 +55,6 @@
 		DA5011C821E48CCA00321A46 /* NaviDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5011CC21E48CCA00321A46 /* NaviDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviDemoTests.swift; sourceTree = "<group>"; };
 		DA5011CE21E48CCA00321A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA5011D321E48CCA00321A46 /* NaviDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NaviDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5011D721E48CCA00321A46 /* NaviDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviDemoUITests.swift; sourceTree = "<group>"; };
 		DA5011D921E48CCA00321A46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA5011E521E4936300321A46 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
@@ -95,14 +85,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE9B393A6BC371146E712E3A /* Pods_NaviDemoTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA5011D021E48CCA00321A46 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0DCA21B84AADE56C42DC806D /* Pods_NaviDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +131,6 @@
 			children = (
 				DA5011B421E48CC600321A46 /* NaviDemo.app */,
 				DA5011C821E48CCA00321A46 /* NaviDemoTests.xctest */,
-				DA5011D321E48CCA00321A46 /* NaviDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -236,25 +217,6 @@
 			productReference = DA5011C821E48CCA00321A46 /* NaviDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA5011D221E48CCA00321A46 /* NaviDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DA5011E221E48CCA00321A46 /* Build configuration list for PBXNativeTarget "NaviDemoUITests" */;
-			buildPhases = (
-				DB42AE3E3C35C7EDFE07DD72 /* [CP] Check Pods Manifest.lock */,
-				DA5011CF21E48CCA00321A46 /* Sources */,
-				DA5011D021E48CCA00321A46 /* Frameworks */,
-				DA5011D121E48CCA00321A46 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				DA5011D521E48CCA00321A46 /* PBXTargetDependency */,
-			);
-			name = NaviDemoUITests;
-			productName = NaviDemoUITests;
-			productReference = DA5011D321E48CCA00321A46 /* NaviDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -269,10 +231,6 @@
 						CreatedOnToolsVersion = 10.1;
 					};
 					DA5011C721E48CCA00321A46 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = DA5011B321E48CC600321A46;
-					};
-					DA5011D221E48CCA00321A46 = {
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = DA5011B321E48CC600321A46;
 					};
@@ -293,7 +251,6 @@
 			targets = (
 				DA5011B321E48CC600321A46 /* NaviDemo */,
 				DA5011C721E48CCA00321A46 /* NaviDemoTests */,
-				DA5011D221E48CCA00321A46 /* NaviDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -311,13 +268,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DA5011C621E48CCA00321A46 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DA5011D121E48CCA00321A46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,28 +343,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaviDemo/Pods-NaviDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DB42AE3E3C35C7EDFE07DD72 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NaviDemoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -444,14 +372,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DA5011CF21E48CCA00321A46 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DA5011D821E48CCA00321A46 /* NaviDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -459,11 +379,6 @@
 			isa = PBXTargetDependency;
 			target = DA5011B321E48CC600321A46 /* NaviDemo */;
 			targetProxy = DA5011C921E48CCA00321A46 /* PBXContainerItemProxy */;
-		};
-		DA5011D521E48CCA00321A46 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DA5011B321E48CC600321A46 /* NaviDemo */;
-			targetProxy = DA5011D421E48CCA00321A46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -681,46 +596,6 @@
 			};
 			name = Release;
 		};
-		DA5011E321E48CCA00321A46 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 069F3B294F78EA344A8DD269 /* Pods-NaviDemoUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NaviDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.farfetch.NaviDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NaviDemo;
-			};
-			name = Debug;
-		};
-		DA5011E421E48CCA00321A46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73B621AD60DED321E451A9A9 /* Pods-NaviDemoUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = NaviDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.farfetch.NaviDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = NaviDemo;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -747,15 +622,6 @@
 			buildConfigurations = (
 				DA5011E021E48CCA00321A46 /* Debug */,
 				DA5011E121E48CCA00321A46 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DA5011E221E48CCA00321A46 /* Build configuration list for PBXNativeTarget "NaviDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DA5011E321E48CCA00321A46 /* Debug */,
-				DA5011E421E48CCA00321A46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
