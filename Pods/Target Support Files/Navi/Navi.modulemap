@@ -1,6 +1,0 @@
-framework module Navi {
-  umbrella header "Navi-umbrella.h"
-
-  export *
-  module * { export * }
-}
