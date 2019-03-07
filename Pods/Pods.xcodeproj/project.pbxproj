@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1512F18BB899CEB6B1F6F1D840D7D75F /* Navi.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E5D931D7F2DDB676A5500DD1566CF6 /* Navi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24BD17AC15A24EFE18D9E7496DFA35CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		2652A8614731882268F5D8A9AC31E9A3 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0985508EAA5A5ADB4C70B59BE81B25 /* Command.swift */; };
 		2962A535F4EA1952C5D5A58CD1A4B947 /* NaviProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3234A12CF1A9150C5244ABD01EE818 /* NaviProtocol.swift */; };
@@ -18,7 +19,6 @@
 		6F33568DFDE8A65123D817C7501D463F /* Navy-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F30F554AE18754FC136ABA5393208EE7 /* Navy-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		85FEF6972D0419FF088A170F80D39E60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		87DB91F81A528E7EFA974E69CAB957B8 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4D26BD1E917696EA10410C9543695 /* Node.swift */; };
-		89556BDE945A21BC65DE452576201491 /* Navi.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E5D931D7F2DDB676A5500DD1566CF6 /* Navi.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		907CBDEAD1F2A2E9C47784C5122302E3 /* Pods-NavyDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0034DF62A6FDC59F707EE352832D6C /* Pods-NavyDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DC82BD6150C59C5136696505005F1C3 /* AllTouchesGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = F5611D06537E3921528B061551AC1D71 /* AllTouchesGestureRecognizer.m */; };
 		B1F3D57A83AB7307D0A4AD2CF917F468 /* Pods-NavyDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F28622B13D2F4704B4125FD6F41D9864 /* Pods-NavyDemo-dummy.m */; };
@@ -249,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44F6932D01A24B2CE2DA929026D36103 /* AllTouchesGestureRecognizer.h in Headers */,
-				89556BDE945A21BC65DE452576201491 /* Navi.h in Headers */,
+				1512F18BB899CEB6B1F6F1D840D7D75F /* Navi.h in Headers */,
 				6F33568DFDE8A65123D817C7501D463F /* Navy-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

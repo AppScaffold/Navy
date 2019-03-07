@@ -1,5 +1,5 @@
 PODS:
-  - Navy (0.2.5)
+  - Navy (0.3.0)
 
 DEPENDENCIES:
   - Navy (from `./Navy`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "./Navy"
 
 SPEC CHECKSUMS:
-  Navy: 4b295cce674aa320826c045be89b6baf1d92dae5
+  Navy: 9917334ed7d4b86e748df4d6fc5aa3400ce2eb9f
 
 PODFILE CHECKSUM: f804fafc70b01c15e49a552d2cd366accba694e7
 
