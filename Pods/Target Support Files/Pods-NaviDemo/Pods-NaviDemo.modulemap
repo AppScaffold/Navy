@@ -1,6 +1,0 @@
-framework module Pods_NaviDemo {
-  umbrella header "Pods-NaviDemo-umbrella.h"
-
-  export *
-  module * { export * }
-}

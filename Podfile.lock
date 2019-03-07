@@ -1,16 +1,16 @@
 PODS:
-  - Navi (0.2.3)
+  - Navy (0.2.5)
 
 DEPENDENCIES:
-  - Navi (from `./Navi`)
+  - Navy (from `./Navy`)
 
 EXTERNAL SOURCES:
-  Navi:
-    :path: "./Navi"
+  Navy:
+    :path: "./Navy"
 
 SPEC CHECKSUMS:
-  Navi: 60a6f256d4cb4dfc0081c60eee96ad9c3a66632d
+  Navy: 4b295cce674aa320826c045be89b6baf1d92dae5
 
-PODFILE CHECKSUM: 3a09019958b75d02228dbe8e66a73a9c6174abc9
+PODFILE CHECKSUM: f804fafc70b01c15e49a552d2cd366accba694e7
 
 COCOAPODS: 1.6.0.beta.2
