@@ -112,13 +112,19 @@ You have to run your project first before you execute the command below.
 ./run-navy.sh
 ```
 
+## Thanks
+
+- [d3](https://github.com/d3/d3)
+- [BrowserSync](https://github.com/BrowserSync/browser-sync)
+
 ## TODO
 
-- [ ] Support dynamic display of call stack on web page
-- [x] Support redirect to a new page by clicking the text on a node
+- [ ] Display the code line number of the action which we are tracking
+- [ ] Display call stack on web page
+- [x] Redirect to a new page by clicking the text on a node
 - [x] Map business logic documents
-- [ ] Show history paths
-- [ ] Adapt mobile screen
+- [ ] Display history router paths
+- [x] Adapt mobile screen
 - [ ] Monitor the network
 
 ## Requirements
